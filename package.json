@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "vincentvublog",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Personal Web Site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Vincent Vu <vuduyquoc@gmail.com>",
   "dependencies": {
     "gatsby": "^2.3.31",
     "gatsby-image": "^2.0.40",
@@ -27,7 +27,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
